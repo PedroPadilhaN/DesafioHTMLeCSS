@@ -1,38 +1,70 @@
 @charset "utf-8";
-
-*{
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: "idroid";
+    src: url("fontes/Droid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 
+
+body{
+    background-color: ;
+}
+
+
 header{
-    background-color: forestgreen;
-    padding-bottom: 100px;
-    
+    background-color: rgb(71, 151, 71);
+    width: auto;
 }
 
 header h1{
     text-align: center;
     color: white;
     padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px black;
 }
 
 header p{
     text-align: center;
     color: white;
     padding-top: 20px;
+    padding-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px black;
 }
 
 a{
     color: white;
     display: inline;
-    text-decoration: none;
-    justify-content: flex-start;
+    text-decoration: none;  
+    font-family: Arial, Helvetica, sans-serif; 
 }
 
-nav ul li{
+
+nav li{
     display: inline;
     color: white;
-    
-
+    padding: 10px;
 }
+
+h1#t1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+margin: 20px;
+color:rgb(71, 151, 71) ;
+text-shadow: 2px 2px black;
+}
+
+.t2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+margin: 20px;
+color:rgb(71, 151, 71) ;
+text-shadow: 2px 2px black;
+background-color: lightgreen;
+}
+
+article{
+    text-indent: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
