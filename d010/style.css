@@ -11,11 +11,26 @@
     padding: 0%;
 }
 
+body{
+    background-color: #84e1ad
+}
+
 
 main{
+   
+  background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(26, 33, 160, 0.6);
+    width: 800px;
+    padding: 10px;
     margin: auto;
-    margin-left: 200px;
-    margin-right: 200px;
+    text-align: justify;
+    
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 header{
@@ -51,7 +66,8 @@ a{
 nav li{
     display: inline;
     color: white;
-    padding: 10px;
+    padding: 15px;
+   
 }
 
 h1#t1{
@@ -66,12 +82,16 @@ text-shadow: 2px 2px black;
 margin: 20px;
 color:rgb(71, 151, 71) ;
 text-shadow: 2px 2px black;
-background-image: linear-gradient(to right, lightgreen, white);
+background-image: linear-gradient(to right, rgb(171, 254, 171), white);
 }
 
 article{
     text-indent: 50px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-align: center;
 }
 
 img {
