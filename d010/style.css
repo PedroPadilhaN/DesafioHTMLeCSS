@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
-    font-family: "idroid";
-    src: url("fontes/Droid.otf") format("opentype");
+    font-family: "iDroid";
+    src: url("fontes/IDroid.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +19,7 @@ body{
 main{
    
   background-color: white;
-    border-radius: 10px;
+    border-radius: 2px;
     box-shadow: 5px 5px 15px rgba(26, 33, 160, 0.6);
     width: 800px;
     padding: 10px;
@@ -43,7 +43,7 @@ header h1{
     color: white;
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
 }
 
 header p{
@@ -71,17 +71,17 @@ nav li{
 }
 
 h1#t1{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+font-family: 'iDroid' ;
 margin: 20px;
 color:rgb(71, 151, 71) ;
-text-shadow: 2px 2px black;
+
 }
 
 .t2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: 'iDroid' ;
 margin: 20px;
 color:rgb(71, 151, 71) ;
-text-shadow: 2px 2px black;
+
 background-image: linear-gradient(to right, rgb(171, 254, 171), white);
 }
 
